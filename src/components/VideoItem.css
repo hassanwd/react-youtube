@@ -1,0 +1,127 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #0f0f0f;
+}
+.video-item {
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer;
+}
+
+.video-item.item img {
+    max-width: 180px;
+}
+
+.searchbar{
+    position: fixed;
+    background-color: black;
+    top: 0px;
+    width: 100%;
+    height: 5vh;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bar{
+    width: 3%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+}
+.channel_main{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.prof-icon{
+    font-size: 25px;
+    margin-top: 10px;
+    color: white;
+}
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230612/pngtree-in-the-style-of-2d-game-art-image_2884743.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.search{
+    height: 90%;
+    width: 35%;
+}
+.exact_search{
+    height: 100%;
+    background-color: #121212;
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid #222222;
+}
+
+.exact_search input{
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    outline: none;  
+    background: transparent;
+    border: none;
+    color: #eee;
+}
+
+.sicon{
+    width: 10%;
+    height: 100%;
+    border-radius: 0 25px 25px 0;
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.banner{
+    margin-top: 90px;
+}
+.banner_left{
+    width: 70%;
+}
+.banner_right{
+    width: 30%;
+}
+.main_video{
+    width: 100%;
+}
+.main_video_left{
+    height: 80vh;
+    padding: 0 20px;
+}
+.main_video > div iframe {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+} 
+
+.main_video_left_comment{
+    padding: 20px;
+}
+.comment_heading{
+    font-weight: 800;
+    color: white;
+}
+.comment_heading + p{
+    color: white;
+}
